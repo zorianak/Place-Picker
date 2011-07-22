@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Pick-A-Place</title>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<script src="PickAPlace.js" type="text/javascript" ></script>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<div class="description">
+	<h1>Pick-A-Place</h1>
+    
+    <p>This is a small web application designed to help you choose a place to eat.  In the future it will do the following:</p>
+    
+    <ul>
+    	<li>All you to specify a type of restaurant, and show you your choices.</li>
+        <li>Allow you to specify any place random, and will display the web page of a random restaurant.</li>
+        <li>Allow you to add a new restaurant to the application, as well as its URL.</li>
+    </ul>
+    
+</div>
+
+<div id="picker" class="lists">
+	
+    <h2>Pick one:</h2>
+    <ul id="choices" class="listing">
+        <li><a href="#" name="random" id="random" onClick="randomRest();">Random!</a></li>
+    </ul>
+</div>
+
+<div class="suggestions lists">
+	<h2>Suggestions:</h2>
+    
+    <ul id="results" class="listing">
+    
+    </ul>
+
+</div>
+
+<div id="tester">
+
+</div>
+
+<div style="clear:both;"></div>
+</div>
+
+</body>
+</html>
